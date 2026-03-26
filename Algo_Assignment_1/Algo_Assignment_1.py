@@ -65,7 +65,7 @@ def isPowerOfTwo(n):
     return False if n % 2 != 0 else isPowerOfTwo(n // 2)
 
 if __name__ == "__main__":
-    # Пример вывода для задачи 10 (как в Figure 1)
+   
     for i in [1, 2, 3, 4, 8, 16, 32]:
         status = "is a power of two" if isPowerOfTwo(i) else "is not a power of two"
         print(f"{i} {status}")
