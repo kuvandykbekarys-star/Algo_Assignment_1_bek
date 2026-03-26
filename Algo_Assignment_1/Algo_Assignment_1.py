@@ -69,3 +69,4 @@ if __name__ == "__main__":
     for i in [1, 2, 3, 4, 8, 16, 32]:
         status = "is a power of two" if isPowerOfTwo(i) else "is not a power of two"
         print(f"{i} {status}")
+        .
